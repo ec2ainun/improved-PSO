@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.GridLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/gridKirim"
+        android:layout_height="wrap_content"
+        app:columnCount="25"
+        app:rowCount="15"
+        >
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            android:gravity="left"
+            android:text="Faktor Objek untuk di Optimasi"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="25"
+            app:layout_columnSpan="25"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            android:gravity="center|right"
+            android:text="Berat badan Sapi (Kg)"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="15"
+            app:layout_columnSpan="15"
+            />
+
+        <EditText
+            android:id="@+id/nilaiBeratSapi"
+            android:layout_width="0dp"
+            android:inputType="number"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="5"
+            app:layout_columnSpan="5"/>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            android:gravity="center|right"
+            android:text="Produksi Susu (L)"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="15"
+            app:layout_columnSpan="15"
+            />
+
+        <EditText
+            android:id="@+id/nilaiProduksiSusu"
+            android:layout_width="0dp"
+            android:inputType="number"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="5"
+            app:layout_columnSpan="5"/>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            android:gravity="center|right"
+            android:text="Berat Maksimum pakan (Kg)"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="15"
+            app:layout_columnSpan="15"
+            />
+
+        <EditText
+            android:id="@+id/nilaiBeratPakan"
+            android:layout_width="0dp"
+            android:inputType="number"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="5"
+            app:layout_columnSpan="5"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            android:gravity="left"
+            android:text="Parameter IPSO"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="25"
+            app:layout_columnSpan="25"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            android:gravity="center|right"
+            android:text="Jumlah PopSize"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="15"
+            app:layout_columnSpan="15"
+            />
+
+        <EditText
+            android:id="@+id/nilaiPopsize"
+            android:layout_width="0dp"
+            android:inputType="number"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="5"
+            app:layout_columnSpan="5"/>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_rowWeight="1"
+            android:gravity="center|right"
+            android:text="Jumlah Iterasi"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="15"
+            app:layout_columnSpan="15"
+            />
+        <EditText
+            android:id="@+id/nilaiIterasi"
+            android:layout_width="0dp"
+            android:inputType="number"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill_horizontal"
+            app:layout_columnWeight="5"
+            app:layout_columnSpan="5"/>
+
+        <Button
+            android:id="@+id/btnOptimasi"
+            app:layout_rowWeight="1"
+            app:layout_gravity="center"
+            android:text="Optimasi"
+            app:layout_columnWeight="5"
+            app:layout_columnSpan="5"
+            />
+
+
+    </android.support.v7.widget.GridLayout>
+
+</LinearLayout>
