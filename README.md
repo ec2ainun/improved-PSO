@@ -1,5 +1,6 @@
 # ImprovedPSO
 Implementasi Algoritma Improved Particle Swarm Optimization (IPSO) dalam Optimasi Komposisi Pakan Sapi Perah pada platform Android
+
 Demo Aplikasi : [Swarm.apk](https://bit.ly/IPSOAndroid)
 
 Ketersediaan pakan yang memadai dapat memaksimalkan produksi susu dan pakan yang disediakan harus memenuhi kebutuhan nutrisi sapi. 
